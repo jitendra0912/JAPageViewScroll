@@ -9,12 +9,15 @@
 /* Begin PBXBuildFile section */
 		4EDEFC43263E7DB9008DA5A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDEFC42263E7DB9008DA5A9 /* AppDelegate.swift */; };
 		4EDEFC45263E7DB9008DA5A9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDEFC44263E7DB9008DA5A9 /* SceneDelegate.swift */; };
-		4EDEFC47263E7DB9008DA5A9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDEFC46263E7DB9008DA5A9 /* ViewController.swift */; };
+		4EDEFC47263E7DB9008DA5A9 /* JAPageSliderController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDEFC46263E7DB9008DA5A9 /* JAPageSliderController.swift */; };
 		4EDEFC4A263E7DB9008DA5A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EDEFC48263E7DB9008DA5A9 /* Main.storyboard */; };
 		4EDEFC4C263E7DBA008DA5A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EDEFC4B263E7DBA008DA5A9 /* Assets.xcassets */; };
 		4EDEFC4F263E7DBA008DA5A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EDEFC4D263E7DBA008DA5A9 /* LaunchScreen.storyboard */; };
 		4EDEFC5A263E7DBB008DA5A9 /* JAPageSliderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDEFC59263E7DBB008DA5A9 /* JAPageSliderTests.swift */; };
 		4EDEFC65263E7DBB008DA5A9 /* JAPageSliderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDEFC64263E7DBB008DA5A9 /* JAPageSliderUITests.swift */; };
+		4EDEFC76263E7DF8008DA5A9 /* PageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDEFC75263E7DF8008DA5A9 /* PageCollectionViewCell.swift */; };
+		4EDEFC7E263E8102008DA5A9 /* JAPagerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDEFC7D263E8102008DA5A9 /* JAPagerView.swift */; };
+		4EDEFC90263E8ED4008DA5A9 /* PagerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDEFC8F263E8ED4008DA5A9 /* PagerModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +41,7 @@
 		4EDEFC3F263E7DB9008DA5A9 /* JAPageSlider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JAPageSlider.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EDEFC42263E7DB9008DA5A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4EDEFC44263E7DB9008DA5A9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4EDEFC46263E7DB9008DA5A9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4EDEFC46263E7DB9008DA5A9 /* JAPageSliderController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JAPageSliderController.swift; sourceTree = "<group>"; };
 		4EDEFC49263E7DB9008DA5A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4EDEFC4B263E7DBA008DA5A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4EDEFC4E263E7DBA008DA5A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +52,9 @@
 		4EDEFC60263E7DBB008DA5A9 /* JAPageSliderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JAPageSliderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EDEFC64263E7DBB008DA5A9 /* JAPageSliderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JAPageSliderUITests.swift; sourceTree = "<group>"; };
 		4EDEFC66263E7DBB008DA5A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4EDEFC75263E7DF8008DA5A9 /* PageCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageCollectionViewCell.swift; sourceTree = "<group>"; };
+		4EDEFC7D263E8102008DA5A9 /* JAPagerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JAPagerView.swift; sourceTree = "<group>"; };
+		4EDEFC8F263E8ED4008DA5A9 /* PagerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagerModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,9 +105,10 @@
 		4EDEFC41263E7DB9008DA5A9 /* JAPageSlider */ = {
 			isa = PBXGroup;
 			children = (
+				4EDEFC94263F2514008DA5A9 /* Scource */,
 				4EDEFC42263E7DB9008DA5A9 /* AppDelegate.swift */,
 				4EDEFC44263E7DB9008DA5A9 /* SceneDelegate.swift */,
-				4EDEFC46263E7DB9008DA5A9 /* ViewController.swift */,
+				4EDEFC46263E7DB9008DA5A9 /* JAPageSliderController.swift */,
 				4EDEFC48263E7DB9008DA5A9 /* Main.storyboard */,
 				4EDEFC4B263E7DBA008DA5A9 /* Assets.xcassets */,
 				4EDEFC4D263E7DBA008DA5A9 /* LaunchScreen.storyboard */,
@@ -126,6 +133,16 @@
 				4EDEFC66263E7DBB008DA5A9 /* Info.plist */,
 			);
 			path = JAPageSliderUITests;
+			sourceTree = "<group>";
+		};
+		4EDEFC94263F2514008DA5A9 /* Scource */ = {
+			isa = PBXGroup;
+			children = (
+				4EDEFC8F263E8ED4008DA5A9 /* PagerModel.swift */,
+				4EDEFC7D263E8102008DA5A9 /* JAPagerView.swift */,
+				4EDEFC75263E7DF8008DA5A9 /* PageCollectionViewCell.swift */,
+			);
+			path = Scource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,9 +275,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4EDEFC47263E7DB9008DA5A9 /* ViewController.swift in Sources */,
+				4EDEFC47263E7DB9008DA5A9 /* JAPageSliderController.swift in Sources */,
 				4EDEFC43263E7DB9008DA5A9 /* AppDelegate.swift in Sources */,
 				4EDEFC45263E7DB9008DA5A9 /* SceneDelegate.swift in Sources */,
+				4EDEFC76263E7DF8008DA5A9 /* PageCollectionViewCell.swift in Sources */,
+				4EDEFC7E263E8102008DA5A9 /* JAPagerView.swift in Sources */,
+				4EDEFC90263E8ED4008DA5A9 /* PagerModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
